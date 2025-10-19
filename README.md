@@ -23,13 +23,14 @@ While other mitigation strategies could focus on headers or specific URL paths, 
 
 ## 4. Usage
 
-To run the firewall server:
+To run the firewall, use the main script [`firewall_server.py`](firewall_server.py):
 
 ```bash
 python firewall_server.py
 ```
+The server will start on localhost:8000.
+You can then use the provided Test_Requester.py script to simulate malicious requests and verify that they are being blocked.
 
-The server will start on localhost:8000. You can then use a testing script to simulate malicious requests and verify that they are being blocked.
 
 ## 5. Disclaimer
 
