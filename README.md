@@ -29,7 +29,7 @@ To run the firewall, use the main script [`firewall_server.py`](firewall_server.
 python firewall_server.py
 ```
 The server will start on localhost:8000.
-You can then use the provided Test_Requester.py script to simulate malicious requests and verify that they are being blocked.
+You can then use the provided [`Test_Requester.py`](Test_Requester.py) script to simulate malicious requests and verify that they are being blocked.
 
 
 ## 5. Disclaimer
