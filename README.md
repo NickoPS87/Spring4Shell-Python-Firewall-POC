@@ -28,3 +28,9 @@ To run the firewall server:
 ```bash
 python firewall_server.py
 ```
+
+The server will start on localhost:8000. You can then use a testing script to simulate malicious requests and verify that they are being blocked.
+
+## 5. Disclaimer
+
+This is a Proof-of-Concept and is intended for educational and demonstrative purposes only. It is not a production-ready firewall solution.
